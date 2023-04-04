@@ -15,7 +15,7 @@ public class DockerTestController {
 
     @GetMapping(value = "/yht")
     public String getNginxConfig() {
-        String res = "叶海涛   " + TimeTest.yht();
+        String res = "叶海涛    " + TimeTest.yht();
         System.out.println(res);
         return res;
     }
